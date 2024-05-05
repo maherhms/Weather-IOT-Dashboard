@@ -10,11 +10,10 @@ This Weather IoT Dashboard is designed to provide real-time weather updates thro
 - Data visualization of temperature, humidity, and other atmospheric conditions
 
 ## Technologies Used
-- IoT Sensors: Model and type of the sensors used
-- Backend: Specify the backend technology (e.g., Node.js, Python Flask)
-- Frontend: Specify the frontend technology (e.g., React, Angular, HTML/CSS)
-- Database: Mention the database used (e.g., MySQL, MongoDB)
-- API: Details about any APIs used for external weather data
+- IoT Sensors: Compatible with Thingsboard devices
+- Backend: Specify the backend technology (e.g., Node.js, Axios , SupaBase)
+- Frontend: Specify the frontend technology (e.g., React, Tailwind, NextJS , Spline3D , Swiper , HTML/CSS)
+- API: Thingsboard
 
 ## Installation
 Provide step-by-step instructions on how to get a development environment running:
