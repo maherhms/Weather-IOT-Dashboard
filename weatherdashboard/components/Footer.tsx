@@ -42,8 +42,10 @@ export function Footer() {
           const webSocket = new WebSocket(
             process.env.NEXT_PUBLIC_TB_WS_URL || ""
           );
+          console.log("WebSocket initialized");
 
           webSocket.onopen = () => {
+            console.log("WebSocket connection opened");
             const object = {
               authCmd: {
                 cmdId: 0,
@@ -64,6 +66,7 @@ export function Footer() {
           };
 
           webSocket.onmessage = (event) => {
+            console.log("Data received");
             const receivedData = JSON.parse(event.data);
             const { subscriptionId, data } = receivedData;
             const {
@@ -99,7 +102,7 @@ export function Footer() {
           console.error("Setting data is null or empty");
         }
       } catch (error) {
-        console.log(error)
+        console.error("Error fetching login or setting data:", error);
       }
     };
     fetchLoginData();
