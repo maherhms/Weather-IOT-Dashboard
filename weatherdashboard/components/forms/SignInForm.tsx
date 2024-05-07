@@ -37,7 +37,6 @@ export default function SignInForm() {
   });
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
-    console.log('data',data)
     startTransition(async () => {
       const result = await signInWithEmailAndPassword(data);
       const { error } = result;

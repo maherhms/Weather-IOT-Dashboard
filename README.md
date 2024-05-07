@@ -21,3 +21,5 @@ Provide step-by-step instructions on how to get a development environment runnin
 2. Install dependencies: npm install (weatherdashboard) folder
 3. Run the application: npm run dev (weatherdashboard) folder
 
+<img align="center" alt="Java" border-radius="55px" style="padding-right:10px;" src="weatherdashboard\assets\screenshots\dashboard.jpg"/>
+

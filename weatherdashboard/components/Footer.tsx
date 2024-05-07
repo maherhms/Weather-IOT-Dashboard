@@ -37,6 +37,7 @@ export function Footer() {
         const setting = await readSetting();
 
         if (setting && setting.data && setting.data.length > 0) {
+          console.log("websocket not empty");
           const token = login.token;
           let { entityType, entityId } = setting.data[0];
           const webSocket = new WebSocket(
