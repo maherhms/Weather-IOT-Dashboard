@@ -42,7 +42,7 @@ export function Navbar() {
               <form action={signOut}>
                 <Button className="gap-1">
                   <Icons.logout className="h-5 w-5" />
-                  <p className="hidden md:block">Sign Out</p>
+                  <p className="hidden md:block background-color='#76885B'">Sign Out</p>
                 </Button>
               </form>
             </li>

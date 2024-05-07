@@ -11,7 +11,7 @@ export default async function Home() {
     return redirect("/Auth");
   }
   return (
-    <div className="bg-gradient-to-t from-[#111627] to-[#344378] h-screen">
+    <div className="bg-gradient-to-t from-[#627254] to-[#76885B] h-screen">
       <div className="absolute w-full h-full text-white flex flex-col justify-between">
         <div className="flex flex-col">
           <Navbar />

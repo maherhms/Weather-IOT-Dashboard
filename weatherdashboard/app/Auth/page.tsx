@@ -14,7 +14,7 @@ export default async function page() {
       <>
         <div className="container relative h-screen flex-col items-center justify-center grid lg:max-w-none lg:grid-cols-2 lg:px-0">
           <div className="relative hidden h-full flex-col bg-muted p-10 text-white lg:flex dark:border-r">
-            <div className="absolute inset-0 bg-gradient-to-t from-[#111627] to-[#344378]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#627254] to-[#76885B]" />
             <div className="relative z-20 flex items-center text-lg font-medium">
               <Icons.sunset className="h-20 w-20" />
               Weather Station
@@ -26,7 +26,7 @@ export default async function page() {
                   portable station, making it easy to stay informed and adjust
                   to changing conditions wherever you are.&rdquo;
                 </p>
-                <footer className="text-sm pt-3">Made with ♡ by Mirutec</footer>
+                <footer className="text-sm pt-3">Made with ♡ by Maher Salah</footer>
               </blockquote>
             </div>
           </div>

@@ -110,28 +110,28 @@ export function Footer() {
         <div className="flex flex-col">
           <div className="flex gap-3">
             <h3 className="text-2xl">Wind</h3>
-            <Icons.wind className="h-8 w-8 rounded-full bg-[#0e1426] p-1" />
+            <Icons.wind className="h-8 w-8 rounded-full bg-[#1A4D2E] p-1" />
           </div>
           <div className="flex gap-2">
-            <p className="text-xl text-[#5f6281]">Direction:</p>
+            <p className="text-xl text-[#76885B]">Direction:</p>
             <p className="text-xl text-white">{windDirection}</p>
           </div>
           <div className="flex gap-2">
-            <p className="text-xl text-[#5f6281]">Speed:</p>
+            <p className="text-xl text-[#76885B]">Speed:</p>
             <p className="text-xl text-white">{windSpeed} m/s</p>
           </div>
           <div className="flex gap-2">
-            <p className="text-xl text-[#5f6281]">Average:</p>
+            <p className="text-xl text-[#76885B]">Average:</p>
             <p className="text-xl text-white">{windAvg}</p>
           </div>
         </div>
-        <div className="flex items-end">
-          <p className="text-xl text-[#5f6281]">Moon Phase</p>
+        {/* <div className="flex items-end">
+          <p className="text-xl text-[#76885B]">Moon Phase</p>
           <Icons.moon className="h-12 w-12" />
-        </div>
+        </div> */}
       </div>
       <div className="flex m-4 gap-3 min-h-60">
-        <Swiper
+        <Swiper swiper--theme-color ="#76885B"
           modules={[
             Navigation,
             Pagination,

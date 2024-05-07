@@ -11,10 +11,10 @@ interface CardProps {
 export function Card({ title, icon, value, unit, texts }: CardProps) {
   return (
     <div className="flex w-full">
-      <div className="flex flex-col w-full rounded-xl p-3  bg-gradient-to-tl from-[#0e1426] from-1% to-70% to-[#1d2b53] min-h-52 transform transition-transform ">
+      <div className="flex flex-col w-full rounded-xl p-3  bg-gradient-to-tl from-[#627254] from-1% to-70% to-[#76885B] min-h-52 transform transition-transform ">
         <div className="flex justify-between h-1/4 ">
           <h3 className="text-xl roboto">{title}</h3>
-          <div className="w-[30px] h-[30px] rounded-full bg-[#0e1426] p-1">
+          <div className="w-[30px] h-[30px] rounded-full bg-[#1A4D2E] p-1">
             {icon}
           </div>
         </div>
@@ -25,10 +25,10 @@ export function Card({ title, icon, value, unit, texts }: CardProps) {
           </div>
         </div>
         <div className="flex flex-col h-1/4">
-          <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-[#344378] to-transparent"></div>
+          <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-[#ffffff] to-transparent"></div>
           <div className="flex justify-between items-center mt-2">
             {texts.map((text, index) => (
-              <p key={index} className="text-[#5a678c]">
+              <p key={index} className="text-[#ffffff]">
                 {text}
               </p>
             ))}
