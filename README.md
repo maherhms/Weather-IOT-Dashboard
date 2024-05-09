@@ -3,7 +3,7 @@
 ## Project Overview
 This Weather IoT Dashboard is designed to provide real-time weather updates through an intuitive graphical user interface. It integrates various IoT sensors to collect meteorological data, which is then displayed on a dashboard. This project is ideal for anyone interested in climate monitoring or home automation systems.
 
-<img align="center" alt="Java" border-radius="55px" style="padding-right:10px;" src="weatherdashboard\assets\screenshots\dashboard.jpg"/>
+<img align="center" alt="Java" border-radius="55px" style="border-radius:5%"  src="weatherdashboard\assets\screenshots\dashboard.jpg"/>
 
 ## Features
 - Real-time weather updates
